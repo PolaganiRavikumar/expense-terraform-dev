@@ -95,6 +95,7 @@ module "records" {
       name    = "backend"
       type    = "A"
       ttl     = 1
+     // zone_id = var.zone_id
       records = [
         module.backend.private_ip
       ]
@@ -103,6 +104,7 @@ module "records" {
       name    = "frontend"
       type    = "A"
       ttl     = 1
+     // zone_id = var.zone_id
       records = [
         module.frontend.private_ip
       ]
@@ -111,6 +113,7 @@ module "records" {
       name    = ""
       type    = "A"
       ttl     = 1
+     // zone_id = var.zone_id
       records = [
         module.frontend.public_ip
       ]

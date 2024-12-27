@@ -39,7 +39,11 @@ variable "ansible_tags" {
 }
 
 variable "zone_name" {
-    default = "daws81s.online"
+    default = "daws23d.online"
 }
+/* variable "zone_id" {
+    default = "Z0980608D8EGNELZM3LE"
+  
+} */
 
 

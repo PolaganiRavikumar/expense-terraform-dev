@@ -10,7 +10,7 @@ terraform {
     bucket = "daws23d-s3bukcet-online"
     key    = "expense-sg"
     region = "us-east-1"
-    dynamodb_table = "daws23d-locking"
+    dynamodb_table = "aws23d-table-locking"
   }
 }
 
